@@ -4,4 +4,5 @@ This website can be used by the students of any university/college to solve thie
 `time table` `mess menu` `navigation maps` `laundry services` `academic calenders` `printing shops` `cab sharing` `flat/pg` and many more.
 
 ## Author
-```Rishi Kumar Singh```
+
+[Rishi Kumar Singh](https://github.com/rishi2806)
