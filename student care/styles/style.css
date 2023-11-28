@@ -1,0 +1,127 @@
+.container{
+  width: 100%;
+}
+
+
+ .slider{
+  background-image: url(/images/bg2.jpg);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 50px;
+} 
+.carousel{
+  width: 50%;
+}
+
+.crousel{
+  width: 100%;
+}
+
+.carousel-inner {
+  /* position: absolute; */
+  max-width: 100%;
+  width: 100%;
+  /* height: 240px; */
+  max-height: 100%;
+  padding: 30px;
+  
+}
+.carousel-caption h5{
+  color: rgb(254, 251, 251);
+  text-shadow: 2px 2px 4px #090909
+  /* background: black; */
+}
+.carousel-caption p{
+  color: white;
+  text-shadow: 2px 2px 8px #040404
+  /* background: black; */
+}
+.carousel-item{
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 15px 50px;
+  /* border-radius: 15px 50px 30px 5px; */
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 20px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+    color: black;
+  }
+  
+  .fa-facebook {
+    /* background: white; */
+    color: white;
+  }
+  
+  .fa-twitter {
+    /* background: #55ACEE; */
+    color: white;
+  }
+  
+  .fa-google {
+    /* background: #dd4b39; */
+    color: white;
+  }
+  
+  .fa-linkedin {
+    /* background: #007bb5; */
+    color: white;
+  }
+  
+  .fa-youtube {
+    /* background: #bb0000; */
+    color: white;
+  }
+  
+  .fa-instagram {
+    /* background: #125688; */
+    color: white;
+  }
+
+
+
+  @media screen and (max-width: 800px) {
+    .slider {
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .carousel{
+      width: 100%;
+    }
+  }
+
+  body {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    /* background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%); */
+    background: linear-gradient(315deg, rgb(5, 5, 5) 3%, rgb(49, 49, 49) 38%, rgb(140, 140, 140) 68%, rgb(135, 136, 135) 98%);
+    animation: gradient 10s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+

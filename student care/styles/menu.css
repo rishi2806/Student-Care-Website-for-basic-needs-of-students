@@ -1,0 +1,66 @@
+body {
+    background-color: black; 
+}
+
+.heading{
+    /* width: 500px; */
+    width: 97%;
+    margin-top: 70px; 
+    color: rgb(5, 5, 5);
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    align-content: center;
+    width: 97%;
+    margin: 20px; 
+    border-collapse: separate;
+    border: 2px solid black;
+    background-color: white; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    scroll-behavior: smooth;
+    padding: 20px;
+    
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: left;
+    color: #fff; /* Text color for table cells */
+    
+}
+td{
+    color: black;
+    text-align: left;
+
+}
+th {
+    background-color: purple; /* Header background color */
+    text-align: center;
+    font-size: larger;
+}
+
+tr:nth-child(even) {
+    background-color: white; /* Even row background color */
+    
+}
+
+tr:nth-child(odd) {
+    background-color: white; /* Odd row background color */
+}
+
+/* Zoom hover effect */
+tr {
+    transition: transform 0.5s; /* Smooth transition for the zoom effect */
+}
+
+tr:hover {
+    background-color: lavender; /* Hover background color */
+    transform: scale(1.03); /* Zoom in on hover (1.05x zoom) */
+}
